@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(83, 52, 52);
+    display: flex;
+    overflow: hidden;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    background-color:rgb(127, 94, 94);
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(98, 57, 57); 
+    background-position: center;
+}
+.img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.4);
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(160, 108, 108, 0.589);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    background-color: rgb(114, 85, 85); 
+}
+
+#text-div{
+   /* height: 400px;   */
+    width: 400px;
+    transform: translate(0,-50%);
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+#text-div h1{
+    font-size: 85px;
+    letter-spacing: 5px;
+    color: #fff;
+    font-family: gilroy;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+#small-img-div{
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGZhc2hpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.8);
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 5%;
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 40%;
+    right: -17% ;
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: transparent;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    left: 5%;
+    top: 4%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#nav img{
+    height:40px ;
+}
+h5{
+    position: absolute;
+    font-size: 25px;
+    font-family: gilroy;
+    color: #fff;   
+    left:130px;
+
+}
